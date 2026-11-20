@@ -8,4 +8,4 @@ Our mods run code on players' computers, and the installer adds files to the gam
 
 **Not a security issue:** game bugs, cheats or exploits in the game itself (please report those to the game's developers), and normal bugs in our mods (use [a bug report](https://github.com/NuclearNightmare-Community/feedback/issues/new?template=bug.yml)).
 
-We'll acknowledge a report within a week, keep you updated, and credit you when the fix ships unless you'd rather not be named. Please give us a reasonable time to fix it before talking about it publicly.
+**What happens next:** we'll get back to you as soon as we can, keep you posted while we work on a fix, and credit you when it ships, unless you'd rather not be named.
