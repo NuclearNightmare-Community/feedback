@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and show-and-tell
+    url: https://github.com/NuclearNightmare-Community/feedback/discussions
+    about: Ask how to do something, or share what you made.
+  - name: Report a security problem privately
+    url: https://github.com/NuclearNightmare-Community/feedback/security/advisories/new
+    about: For anything that could harm players' computers. Please don't post these publicly.

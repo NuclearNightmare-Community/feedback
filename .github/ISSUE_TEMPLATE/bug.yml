@@ -1,0 +1,58 @@
+name: Bug report
+description: Something doesn't work as it should with one of our mods.
+labels: [bug]
+body:
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Which mod?
+      description: Pick "Not sure" if you don't know which one causes it.
+      options:
+        - Not sure
+        - Nucleus (Mod Core)
+        - Mod Manager
+        - HUD Clock
+        - Map Waypoints+
+        - Whistle Emote Mute
+        - Installer or base pack
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where were you?
+      options:
+        - Title screen or menus
+        - Playing solo
+        - Hosting a multiplayer game
+        - Joined someone else's game
+        - Installing or uninstalling
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Game version and mod versions
+      description: Mod Manager on the title screen lists each mod's version. The game version is on the main menu.
+      placeholder: "Game V8.2.3; Nucleus 0.22.0, HUD Clock 0.3.0"
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file
+      description: >-
+        Attach `UE4SS.log` from the game's `NuclearNightmare\Binaries\Win64\ue4ss\` folder if you can (drag it in).
+        It can contain folder paths with your Windows user name; replace it before attaching if you like.
+  - type: checkboxes
+    id: vanilla
+    attributes:
+      label: Without mods
+      options:
+        - label: I checked that this doesn't happen without mods (optional, but it helps a lot).

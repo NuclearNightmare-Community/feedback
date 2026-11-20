@@ -1,0 +1,16 @@
+name: Mod or feature idea
+description: Suggest a new mod, or an improvement to one of ours.
+labels: [idea]
+body:
+  - type: input
+    id: mod
+    attributes:
+      label: Which mod, or a new one?
+      placeholder: "New mod, or e.g. Map Waypoints+"
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would it do, and why would it make the game better?
+    validations:
+      required: true
